@@ -1,7 +1,4 @@
-const todoList = [{
-  name: 'Learn HTML',
-  dueDate: '2024-01-01',
-}];
+const todoList = [];
 function renderTodoList() {
   let todoListHTML = '';
   todoList.forEach((todoObject, index) => {
